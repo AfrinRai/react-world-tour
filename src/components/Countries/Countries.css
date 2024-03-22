@@ -1,0 +1,16 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited{
+    background-color: azure;
+}
+
+.flag-container img{
+    width: 100px;
+    height: 70px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
